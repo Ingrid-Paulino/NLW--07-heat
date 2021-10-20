@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+
+    "target": "es2017",                                      
+    "module": "commonjs",                                
+    "esModuleInterop": true,                              
+    "forceConsistentCasingInFileNames": true,            
+    "strict": false, //veio true, coloquei false, pois como ja estou usando typescript, eu nn preciso do script pra mostrar por ex variaveis que eu nn estou utilizando, o type script ja faz isso pta mim                                      
+    "skipLibCheck": true                              
+  }
+}
