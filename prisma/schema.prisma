@@ -1,0 +1,16 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// aqui colocamos as configuraçoes do banco de dados ou de tabelas
+
+// https://www.prisma.io/docs/concepts/database-connectors/sqlite
+// dev.db é onde vai ficar todos os artivos do banco de dados
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
