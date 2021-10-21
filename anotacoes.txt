@@ -1,0 +1,7 @@
+"[prisma]" : {
+        "editor.defaultFormatter": "Prisma.prisma"
+    }
+}
+
+
+--exit-child - la no package.json da reloid automaticament
